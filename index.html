@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crashugames - بازی آنلاین بدون دانلود</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="assets/logo.png" alt="Crashugames">
+            <h1>CRASHUGAMES</h1>
+        </div>
+        <nav>
+            <a href="#">خانه</a>
+            <a href="game/playing.html">بازی Crash</a>
+            <a href="#">بازی‌ها</a>
+            <a href="#">رتبه‌بندی</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="hero">
+            <canvas id="three-canvas" style="position:absolute; top:0; left:0; width:100%; height:100%;"></canvas>
+            <div class="hero-content">
+                <h2>بازی کن بدون دانلود</h2>
+                <p>نسخه ایرانی Crazy Games</p>
+                <button onclick="startCrashGame()">شروع Crash X</button>
+            </div>
+        </div>
+
+        <section class="games">
+            <h2>بازی‌های داغ</h2>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
